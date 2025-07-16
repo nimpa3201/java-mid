@@ -21,7 +21,7 @@
 //        animal.sound();
     }
 
-    public Animal bigger(T target) {
+    public T bigger(T target) {
         // 컴파일 오류
         //tSize() > target.getSize() ? animal : target; // 둘 중 큰 개를 반환
         return  null;
