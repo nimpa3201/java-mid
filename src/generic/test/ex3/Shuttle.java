@@ -10,6 +10,10 @@ public class Shuttle <T extends BioUnit>{
         this.value = value;
     }
 
+    public T out(){
+        return value;
+    }
+
 
     public void showInfo(){
         System.out.println("이름= " + value.getName()+ ", HP= " + value.getHp());
