@@ -1,7 +1,5 @@
- package generic.test.ex3;
+ package generic.ex3;
 
-
- import generic.animal.Animal;
 
  public class AnimalHospitalV2 <T> {
 
